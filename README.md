@@ -24,3 +24,14 @@ Hardware-Diagnose bei MIDI-Problemen
 Die Software kommuniziert direkt über MIDI mit dem APC Mini Mk1 und benötigt eine installierte Python-Laufzeitumgebung oder die erstellte EXE-Version. Für den Betrieb werden die Python-Pakete mido und python-rtmidi verwendet.
 
 Hinweis: Während des Tests sollten Ableton Live, FL Studio, Reaper oder andere MIDI-Anwendungen geschlossen sein, damit der APC Mini exklusiv verwendet werden kann.
+
+# APCMiniLEDToggle
+
+Was das Skript macht
+
+Aktion	Ergebnis
+1. Druck auf Taste	LED wird Rot
+2. Druck	LED wird Grün
+3. Druck	LED wird Gelb
+4. Druck	LED Aus
+5. Druck	… wieder Rot usw.
